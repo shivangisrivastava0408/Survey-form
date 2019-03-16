@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <body>
+    <main>
+      <h1 id="title"><center>Survey Form</center></h1>
+      <p id="description"><center><b>Let us know how we can improve freeCodeCamp</b></center></p><br>
+      <form id="survey-form"><center>
+        Name:   <input type="text" name="Username" id="name" placeholder="Enter your name"><br>
+        <br>
+        Email:   <input type="email" name="
+Email" id="email" placeholder="Enter your email" required><br>
+        <br>
+        Age:    <input type="text" name="Age" min="15" max="30" placeholder="Enter your age"<br>
+        <br>
+        <br>
+       Which option best describes your current role?   <select>
+        <option value="Student">Student</option>
+  <option value="Full time job">Full time job</option>
+  <option value="Full time learner ">Full time learner</option>
+  <option value="Other">Other</option>
+</select><br><br>
+    How likely is that you would recommend freeCodeCamp to a friend? <br>  <br>
+  <input type="checkbox" name="definitely" value="Definitely"> Definitely<br>
+  <input type="checkbox" name="maybe" value="Maybe"> Maybe<br>
+  <input type="checkbox" name="not sure" value="not sure" checked> Not sure<br><br>
+  
+What do you like most in Free Code Camp?
+        <select>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open source">Open source</option></select>
+        <br><br>
+        Any comments or suggestions?
+        <textarea rows="4" cols="30" name="comment" form="usrform">
+Enter text here...</textarea><br><br>
+        <input type="submit" value="Submit">
+        </form>
+        </main>
+      </body>
+    </html>
