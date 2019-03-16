@@ -1,0 +1,10 @@
+#title{
+  background: lightblue;
+}
+
+#survey-form{
+  width: 1200px;
+  border: 25px solid green;
+  padding: 25px;
+  margin: 25px;
+}
